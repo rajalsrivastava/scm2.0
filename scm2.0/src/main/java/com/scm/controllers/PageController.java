@@ -16,4 +16,19 @@ public class PageController {
         model.addAttribute("githubRepo","https://github.com/rajalsrivastava");
         return "home";
     }
+
+    @RequestMapping("/about")
+    public String aboutPage(Model model){
+        model.addAttribute("isLogin",false);
+        System.out.println("About page loading");
+        return "about";
+    }
+
+    //services
+
+    @RequestMapping("/services")
+    public String servicesPage(){
+        System.out.println("services page loading");
+        return "services";
+    }
 }

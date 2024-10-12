@@ -2,13 +2,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-Application<scm2.0>",
+            "name": "Application",
             "request": "launch",
-            "cwd": "${workspaceFolder}",
             "mainClass": "com.scm.Application",
-            "projectName": "scm2.0",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "projectName": "scm2.0"
         }
     ]
 }
