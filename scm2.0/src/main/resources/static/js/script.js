@@ -22,7 +22,7 @@ function changeTheme() {
     console.log("change theme button clicked");
 
     // Store the old theme before changing
-    const oldTheme = currentTheme;
+    let oldTheme = currentTheme;
     // Toggle between light and dark themes
     if (currentTheme == "dark") {
       currentTheme = "light";
