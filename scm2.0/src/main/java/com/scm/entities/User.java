@@ -36,6 +36,7 @@ public class User {
     private String about;
     @Column(length = 1000)
     private String profilePic;
+    private String phoneNumber;
     //information
     private boolean enabled=false;
     private boolean emailVerified=false;
